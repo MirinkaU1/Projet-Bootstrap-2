@@ -8,6 +8,7 @@
 
 html {
     scroll-behavior: smooth;
+
 }
 
 body {
@@ -18,18 +19,18 @@ body {
 }
 
 /* Style pour l'en-tête */
-header {
+nav {
     background: var(--gris-fonce);
 }
 
-header img {
-    width: 40vh;
+nav img {
+    width: 30vh;
 }
 
-header h5 {
-    margin: 0;
-    color: white;
+.nav-link {
+    color: var(--gris-clair) !important;
 }
+
 
 /* Style pour la section nouveaux arrivages */
 .new-arrivals {
@@ -40,6 +41,7 @@ header h5 {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    color: var(--gris-fonce);
 }
 
 .new-arrivals p {
@@ -70,6 +72,41 @@ header h5 {
 
 .products h3 {
     margin-top: 1rem;
+}
+
+footer {
+    background: var(--gris-fonce) !important;
+}
+
+footer .row {
+    margin-left: 0;
+    margin-right: o;
+}
+
+footer img {
+    width: 30vh;
+}
+
+.icon-link {
+    color: white;
+}
+.icon-link:hover {
+    color: var(--gris-clair);
+}
+
+footer p, input, textarea, button {
+    font-size: 10px !important;
+}
+
+footer button {
+    background: var(--gris-clair) !important;
+    color: var(--gris-fonce);
+    border-color: var(--gris-fonce);
+}
+
+footer button:hover {
+    background: var(--gris-fonce) !important;
+    color: var(--gris-clair) !important;
 }
 
 /* Réactivité pour les petits écrans */
